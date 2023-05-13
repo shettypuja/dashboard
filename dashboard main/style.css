@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html{
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0.2rem 5%;
+    border: 0.2rem solid #EBEDF4;
+}
+.logo {
+    cursor: pointer;
+    height: 5.4rem;
+    width: 97.2px;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0rem 2rem;
+    font-size: 3rem;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.bell_icon{
+    background-image: url('./images/bell_icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+}
+.man_img{
+    background-image: url('./images/man_img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 4rem;
+    height: 4rem;
+}
+.user_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15rem;
+}
+.container{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.student_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 3rem;
+    order: 0;
+}
+.hello{
+    font-size: 5rem;
+    color: teal;
+    order:0;
+}
+.welcome{
+    font-size: 3rem;
+    color:#959BA6;
+    order:1;
+}
+.search{
+    padding: 5rem;
+    order: 1;
+}
+.search_place{
+    width: 45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.4rem;
+    border: 0.1rem solid #d7dbe6;
+    border-radius: 0.4rem;
+}
+.search_place input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+
+}
+.search_icon{
+    background-image: url('./images/search_icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+}
+.participate_head{
+    width:100%;
+    height: 30rem;
+}
+.main_img{
+    background-image: url('./images/main_img.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 33rem;
+}
+.course_content, .recomendation_content, .industry_content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10rem 0rem;
+    overflow: hidden;
+}
+.card{
+    width: 23%;
+    height: 26.8rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    border: 0.1rem  solid #EBEDF4;
+    margin: 1.1rem;
+}
+.card_img{
+    background-image: url('./images/Rectangle 10.png');
+    background-size: cover;
+    width: 100%;
+    height: 16rem;
+    border-radius: 1rem;
+}
+.card_details{
+    display:flex;
+    flex-direction: column;
+}
+.info{
+    width:22rem;
+    order:0;
+    font-size: 3rem;
+    color: #000000;
+}
+.time p{
+    width:14rem;
+    order:1;
+    font-size: 1rem;
+    color:#959BA6;
+}
+.time .days{
+    color: #E9605A;
+    font-size: 1.5rem;
+}
+.rate{
+    width:40rem;
+    font-size: 3rem;
+}
+#course_rate{
+    color: teal;
+    font-size: 1.8rem;
+}
+.part_button{
+     width: 15.1rem;
+     height: 3rem;
+     font-size: 1.8rem;
+     background: teal;
+     border-radius: 8px;
+     border: none;
+     color: #fff;
+}
+.rec_button{
+     width: 15.1rem;
+     height: 3rem;
+     font-size: 1.8rem;
+     border-radius: 8px;
+     border: none;
+     color: black;
+     background-color: transparent;
+}
+.footer{
+    margin: 0rem auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    flex-direction: row;
+   
+}
+.Contact{
+    width: 35%;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 2rem;
+    order:0;
+    flex: 0;
+}
+.Contact_details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 4.6rem;
+    order:1;
+    gap:4rem;
+}
+.map_img{
+    background-image: url('./');
+
+}
+.hello{
+    width: 32%;
+    order:1;
+}
+.input_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px 10px 10px;
+    width: 70%;
+    height: 4rem;
+    margin: 10px auto;
+    font-size: 2rem;
+    background: #F5F7F9;
+    border-radius: 1rem;
+}
+.input_box{
+    border: none ;
+    background-color: transparent;
+    margin-left: 1rem;
+    outline: none;
+}
+.img_box{
+    height: 3.4rem;
+    width: 4.5rem;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+}
+.image_person{
+    background-image: url('./images/Frame 2579.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 4rem;
+    width: 5rem;
+}
+.image_phone{
+    background-image: url('./images/phone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5rem;
+    height: 4rem;
+    width: 5rem;
+}
+.image_email{
+    background-image: url('./images/email (5).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 4rem;
+    width: 5rem;
+}
+.image_message{
+    background-image: url('./images/message.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 4rem;
+    width: 5rem; 
+}
+textarea{
+   border-radius: 1rem;
+}
+.follow{
+    width: 25%;
+    order: 2;
+}
+.image_insta{
+    background-image: url('./images/insta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 4rem;
+    width: 5rem; 
+}
+.image_facebook{
+    background-image: url('./images/facebook.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 4rem;
+    width: 5rem; 
+}
+.image_twitter{
+    background-image: url('./images/twitter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 4rem;
+    width: 5rem; 
+}
+.social_button{
+    width: 100%;
+    background-color: transparent;
+    color: #161E2B;
+    border: none;
+}
+@media(max-width:998px){
+    html{
+        font-size: 65%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
